@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="Images/msiLogo.PNG" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="assets/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="assets/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="assets/bootstrap.min.js"></script>
+     <!-- Fonts -->
+    <link href="assets/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Marlensoft</title>
+</head>
+<body>
+    <div class="d-flex flex-column">
+        <nav class="navbar navbar-expand-md bg-navbar navbar-light">
+            <a id="Homelink" href="#" class="d-flex flex-row align-items-center">
+              <div class="logo-container d-flex justify-content-center align-items-center">
+                <img class="logoOne" src="Images/msiLogo.PNG">
+              </div>
+              <img src="Images/logo-color.svg" class="logo" alt="Logo">
+           </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sliderTabs mb-n4" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" id="Homelink" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Aboutlink" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Courseslink" href="#">Innovation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Gallerylink" href="#">Career</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Contactlink" href="#">Contact</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+          <div class="d-flex justify-content-center align-items-center slider" id="Home">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                </ul>              
+                <!-- The slideshow -->
+                <div class="carousel-inner carouselMarginTop">
+                  <div class="carousel-item active">
+                    <img src="Images/HomePage_Slider_1.jpg" class="carouselImage">
+                    <div class="carousel-caption">
+                      <div class="carouselText">Enabling a Smater & Secure environment for precision equipment industry</div> 
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/HomePage_Slider_2.jpg" class="carouselImage">
+                    <div class="carousel-caption">
+                      <div class="carouselText">Enabling a Smater & Secure environment for precision equipment industry</div> 
+                    </div> 
+                  </div>
+                </div>               
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center slider mt-5 mb-2" id="About"> 
+              <div class="headerText">What We Do</div>
+              <div class="text-center descText1 col-10 mt-5">At Marlensoft, creating techinal intelligence involving both prototype hardware & a solution-based software is not a choice but  a way of living</div>
+              <img src="Images/WhatWeDo_Icon.png" class="w-100 mt-5">
+          </div>
+          <div class="d-flex flex-column slider ourExpertiseBG1 p-5" id="Courses">
+              <div class="text-center headerText">Our Expertise</div>
+              <div class="d-flex flex-lg-row flex-xs-column justify-content-center align-items-center col-lg-12 mt-5 containerInnerPadding">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <img class="allLogoSize" src="Images/ProductEngineering_Icon.png">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <div class="d-flex flex-column col-10">
+                    <div class="titleText">Product Engineering</div>
+                    <div class="descText2 text-justify">We create smart and impactful devices that  extend  weighing scale capabilities enhancing the user experience, simplifying product costs, logically processing and diving date communication to the cloud</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="d-flex flex-column slider ourExpertiseBG2 p-5">
+            <div class="d-flex flex-lg-row flex-xs-column justify-content-center align-items-center col-lg-12 containerInnerPadding">
+              <div class="col-lg-6 d-lg-none d-md-none d-sm-none d-xs-flex justify-content-center align-items-center">
+                <img class="allLogoSize ml-5" src="Images/SolutionDesign_Icon.png">
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column col-10">
+                  <div class="titleText">Solution Design</div>
+                  <div class="descText2 text-justify">Automate the process of data management with our agile software service that intelligently captures data and provides insights allowing you to gain the edge over the competition. Stay connected on-the-go</div>
+                </div>
+              </div>
+              <div class="col-lg-6 d-lg-flex d-md-flex d-sm-flex d-xs-none justify-content-center align-items-center">
+                <img class="allLogoSize" src="Images/SolutionDesign_Icon.png">
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column slider ourExpertiseBG1 p-5" >
+              <div class="d-flex flex-lg-row flex-xs-column justify-content-center align-items-center col-lg-12 containerInnerPadding">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <img class="allLogoSize" src="Images/Support&Service_Icon.png">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <div class="d-flex flex-column col-10">
+                    <div class="titleText">Suppot & Service</div>
+                    <div class="descText2 text-justify">We not only build intuitive experiences but offer support all along the course to make your experience more meaningful and constantly remain on-the-look-out to make our solutions sustainable and scalable over the long run.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="d-flex flex-column slider innovationBg p-5" id="Gallery" >
+            <div class="text-center headerText text-light">Innovation</div>
+            <div class="d-flex flex-lg-row flex-xs-column justify-content-center align-items-center col-lg-12 mt-5 containerInnerPadding">
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <img class="allLogoSize" src="Images/Industry4.0_Icon.png">
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column col-10">
+                  <div class="titleText text-light">Accelerating the path for Industry <span class="font4">4.0</span></div>
+                  <div class="descText2 text-justify text-light">With increasing challenges in the precision equipment industry. here's how are creating breakthrough solutions for smart outcomes.</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column slider getInTouchBg p-5" id="Contact"> 
+          <div class="text-center getInTouchTitle">Get in Touch!</div>
+          <div class="text-center getInTouchDesc mt-lg-4 mt-md-4 mt-sm-2">Building the blocks of IOT for precision equipment in an agile way.</div>
+        </div>
+        <div class="d-flex flex-column pl-5 pr-5 pt-5 pb-2 contactbg">
+          <div class="d-flex flex-lg-row flex-md-row mb-3 flex-xs-column flex-sm-column justify-content-xs-center justify-content-sm-center justify-content-md-between justify-content-lg-between px-lg-5 px-md-3 px-sm-0">
+            <div class="d-flex flex-column">
+              <div class="d-flex flex-row align-self-start">
+                <i class="fa fa-map-marker contactIcons mr-4 mt-2" aria-hidden="true"></i>
+                <div class="contactFormLabel">Balingen, Germany <br/> Chennai, India</div>
+              </div>
+              <div class="d-flex flex-row align-self-start mt-2">
+                <i class="fa fa-phone contactIcons mr-3" aria-hidden="true"></i>
+                <div class="contactFormLabel">+91 9900 21 12 21</div>
+              </div>
+              <div class="d-flex flex-row align-self-start mt-2">
+                <i class="fa fa-envelope contactIcons mr-3" aria-hidden="true"></i>
+                <div class="contactFormLabel">Info@marlensoft.com</div>
+              </div>
+            </div>
+            <div class="d-flex flex-column mt-3">
+                <div class="contactFormLabel text-lg-center text-md-center text-sm-start">Follow Us</div>
+                <div class="d-flex flex-row mt-1">
+                  <i class="fa fa-facebook-square contactIcons mr-2" aria-hidden="true"></i>
+                  <i class="fa fa-instagram contactIcons mx-2" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square contactIcons mx-2" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="d-flex flex-column contactFormWidth marginContactInMob">
+              <form class="">
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <label for="Name" class="mb-2 mr-sm-2 contactFormLabel">Name</label>
+                  <input type="text" class="form-control mb-2 mr-sm-2 customForm" id="Name"  name="Name">
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <label for="Email" class="mb-2 mr-sm-2 contactFormLabel">Email</label>
+                  <input type="text" class="form-control mb-2 mr-sm-2 customForm" id="Email" name="Email">
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-center">
+                  <label for="Contact" class="mb-2 mr-sm-2 contactFormLabel">Contact No</label>
+                  <input type="text" class="form-control mb-2 mr-sm-2 customForm" id="Contact" name="Contact">
+                </div>
+                <div class="float-right mr-3 mt-2 cursor-pointer contactFormLabel">SUBMIT</div>
+              </form>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-center mt-2 footerTabs">
+            <a class="mx-2" id="Homelink" href="#">Home</a>
+            <a class="mx-2" id="Aboutlink" href="#">About</a>
+            <a class="mx-2" id="Courseslink" href="#">Innovation</a>
+            <a class="mx-2" id="Gallerylink" href="#">Career</a>
+            <a class="mx-2" id="Contactlink" href="#">Contact</a>    
+          </div>
+        </div>
+      <div class="d-flex flex-row justify-content-between px-lg-5 px-md-3 px-sm-2 px-xs-2 py-4 bg-navbar">
+        <div class="contact-text">&#169; 2021 MarlensoftPvt.Ltd. All Rights Reserved</div>
+        <div class="contact-text">Privacy Policy Terms of Use</div>
+      </div>
+    </div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
+</body>
+<script>
+   function goToByScroll(id){
+          // Reove "link" from the ID
+        id = id.replace("link", "");
+          // Scroll
+        $('html,body').animate({
+            scrollTop: $("#"+id).offset().top},
+            'slow');
+    }
+    $(".sliderTabs > ul > li > a").click(function(e) { 
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });
+    $(".footerTabs > a").click(function(e) { 
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });
+    $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+</script>
+</html>
