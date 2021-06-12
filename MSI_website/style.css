@@ -42,6 +42,7 @@
 
 html{
   min-width: 100vh;
+  overflow-x: hidden;
 }
 
 body{
